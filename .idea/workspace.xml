@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a473f5b-e7da-474f-aa6d-c81958b53c8a" name="Changes" comment="First Commit.">
+      <change afterPath="$PROJECT_DIR$/res/PM_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/PM_train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/PM_truth.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/binary_model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/binary_submit_test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/binary_submit_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/model_accuracy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/model_loss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/model_verify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scripts/evaluate_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scripts/membership_oracle_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scripts/training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/classes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sat4j_core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/tensorflow.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/VAEtoSFA-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/VAEtoSFA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/BufferAccess_LoginAndProcess-AD_model.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/BufferAccess_LoginAndProcess.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/BufferAccess_LoginAndProcess.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Clock_CheckExpired-AD_model.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Clock_CheckExpired.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Clock_CheckExpired.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/CollisionAvoidance-AD_model.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/CollisionAvoidance.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/CollisionAvoidance.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/PC.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Producer_Consumer-AD_model.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Producer_Consumer.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/Producer_Consumer.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/VAELearning/VAELearn.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/VAELearning/VAELearn.sc" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="VAEtoSFA" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Class" />
+        <option value="Scala Worksheet" />
+        <option value="Class" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2PmZ8zDGK8qVlEFMFuC4Gudacp1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-20",
+    "last_directory_selection": "/Users/atabou/IdeaProjects/VAEtoSFA/src/main/scala/VAELearning",
+    "last_opened_file_path": "/Users/atabou/IdeaProjects/VAEtoSFA/src/main",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res" />
+      <recent name="$PROJECT_DIR$/src/main/scala/VAELearning" />
+      <recent name="$PROJECT_DIR$/src/main/scala" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="VAELearning" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="run_vae_tests" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="VAEtoSFA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.9 (venv)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/scripts" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/scripts/run_vae_tests.py" />
+      <option name="PARAMETERS" value="-d ../../../res/Producer_Consumer.csv -m ../../../res/Producer_Consumer.h5 -s 80 -b 256 -t 1.1" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a473f5b-e7da-474f-aa6d-c81958b53c8a" name="Changes" comment="" />
+      <created>1684064062763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684064062763</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First Commit.">
+      <created>1684646693890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684646693890</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit." />
+  </component>
+</project>
