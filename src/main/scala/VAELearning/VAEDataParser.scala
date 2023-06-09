@@ -9,7 +9,7 @@ import scala.collection.JavaConverters.asJava
 
 class VAEDataParser[DomType]() {
 
-    def parse(path: String, objConstructor: Array[String] => DomType): java.util.List[DomType] = {
+    def parse(path: String, objConstructor: Array[String] => DomType): List[DomType] = {
 
         var data : List[DomType] = List()
 
@@ -17,21 +17,18 @@ class VAEDataParser[DomType]() {
 
             val scanner = new Scanner(new File(path))
 
-            scanner.next()
-
-            while (scanner.hasNext()) {
+            while (scanner.hasNextLine()) {
 
                 // Get nex row from scanner
 
-                var str : String = scanner.next()
+                var str : String = scanner.nextLine()
 
                 // Split on "," and then on "-" if possible. Then flatten the array and filter out empty values.
                 // Finally, convert to a list.
 
                 var row : Array[String] = str
-                    .split(",")
+                    .split(' ')
                     .map { c => c.trim }
-                    .flatMap { c => c.split("-") }
                     .filter(_.nonEmpty)
 
                 // Construct the domain object from the row.
@@ -52,7 +49,7 @@ class VAEDataParser[DomType]() {
 
         }
 
-        return asJava(data)
+        return data
 
     }
 

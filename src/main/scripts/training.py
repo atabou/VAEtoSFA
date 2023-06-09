@@ -41,6 +41,7 @@ truth_df.drop(truth_df.columns[[1]], axis=1, inplace=True)
 #######
 # TRAIN
 #######
+
 # Data Labeling - generate column RUL(Remaining Usefull Life or Time to Failure)
 rul = pd.DataFrame(train_df.groupby('id')['cycle'].max()).reset_index()
 rul.columns = ['id', 'max']
